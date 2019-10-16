@@ -11,7 +11,6 @@ def reply(lbl,s1,s2):
    #if lbl == 'ret' : ret.write(data)
    print(lbl)
    print(data)
-   #if(data == b'+\x00\x00\x00\x03SELECT * FROM ebidding.v_caizhaokanban_all') :
    s2.send(data)
   except:
    print('except')
